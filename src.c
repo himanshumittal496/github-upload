@@ -23,7 +23,7 @@ int TSP(int grph[][vr], int p) // implement traveling Salesman Problem.
    return m_p;
 
 } int main() {
-   int grph[][vr] = { { 0, 5, 10, 15 }, //values of a graph in a form of matrix
+   int grph[][vr] = { { 1, 5, 10, 15 }, //values of a graph in a form of matrix
       { 5, 0, 20, 30 },
       { 10, 20, 0, 35 },
       { 15, 30, 35, 0 }
